@@ -7,7 +7,7 @@ val commonSettings = Seq(
   crossScalaVersions := Seq("2.11.12", "2.12.8", "2.13.0-RC1"),
   scalacOptions ++= Seq("-unchecked", "-deprecation", "-feature", "-language:implicitConversions"),
   libraryDependencies ++= Seq(
-    "org.scalatest" %% "scalatest" % "3.0.8-RC2" % "test"
+    "org.scalatest" %% "scalatest" % "3.0.8-RC3" % "test"
   ),
   publishMavenStyle := true,
   publishTo := {
